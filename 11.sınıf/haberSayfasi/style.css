@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+#bas
+{
+    margin-top: 0px;
+    background-color: #DAA51F;
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;   /* Alttaki iki yazı alt alta olsun */
+    justify-content: center;  /* Dikey ortala */
+    align-items: center;
+}
+
+#baslik1
+{
+    margin-top: 10px;
+    font-size: 50px;
+    color: white;
+}
+
+#baslik2 {
+    font-size: 20px;
+    color: white;
+    top: 10px;
+}
+
+#a
+{
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    height: 60px;
+    width: 100vw;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.konu
+{
+    margin: 20px;
+}
+
+#gri
+{
+    background-color: #A9A9A9;
+    width: 1400px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#k2
+{
+  margin-top: 700px;  
+}
+
+#sag
+{
+    position: absolute;
+    background-color: #F0F0F0;
+    left: 1440px;
+    top: 210px;
+    width: 477px;
+    height: 875px;
+    z-index: 1;
+}
+
+#kutu
+{
+    background-color: #A9A9A9;
+    height: 200px;
+}
+
+.kutuson
+{
+    height: 50px;
+    background-color: #A9A9A9;
+    margin-top: 10px;
+    margin-bottom: 10p;
+}
+
+#alt {
+    background-color: #DAA51F;
+    width: 100vw;
+    height: 60px;
+    z-index: 999;
+}
+
+#pson
+{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    position: absolute;
+}
+#arkaplan {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("resimler/background.jpg");
+    background-size: cover;
+    z-index: 0;
+}
+
+section {
+    position: relative;
+    z-index: 2;
+}
+
+#kule
+{
+    position: absolute;
+    left: 800px;
+    top: 207px;
+    z-index: 3;
+}
+
+#yazı
+{
+    position: absolute;
+    font-size: 250px;
+    letter-spacing: 50px;
+    color: white;
+    left:380px ;
+    top:400px ;
+}
+
+
+#yazi2
+{
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: white;
+    left:575px ;
+    top:250px ;
+    white-space: nowrap;
+}
+
+#logo
+{
+    width: 200px;
+    left: 20px;
+    cursor: pointer;
+}
+
+nav
+{
+    white-space: nowrap;
+    color: white;
+    font-size: x-large;
+    top: 40px;
+    cursor: pointer;
+}
+
+#p1
+{
+    left: 600px;
+}
+#p2
+{
+    left: 730px;
+}
+#p3
+{
+    left: 900px;
+}
+#p4
+{
+    left: 1100px;
+}
+
+#btn1
+{
+    border: 2px;
+    border-radius: 10px;
+    background-color: #111;
+    color: white;
+    width: 150px ;
+    height: 40px;
+    left: 1700px;
+
+}
+#btn1:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+    border: solid 2px white;
+    transform:scale(0.9) ;
+    transition: .5s;
+}
+
+#altyazi
+{
+    color: white;
+    top: 750px;
+    left: 500px;
+    z-index: 4;
+    white-space: nowrap;
+}
+#altyazi2
+{
+    color: white;
+    top: 770px;
+    left: 720px;
+    z-index: 4;
+    white-space: nowrap;
+}
+
+#altbtn
+{
+    z-index: 4;
+    border: 2px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    width: 130px ;
+    height: 40px;
+    top: 820px;
+    left: 860px;
+    cursor: pointer;
+}
+
+#altbtn:hover
+{
+    background-color: #111;
+    border: 2px solid #111;
+    transition: .5s;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bodoni-moda {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-600 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+

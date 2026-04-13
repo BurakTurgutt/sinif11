@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#se
+{
+    position: absolute;
+    z-index: 2;
+}
+
+#logo
+{
+    width: 173px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+.mt15
+{
+    margin-top: 15px;
+}
+
+.orta
+{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 500px;
+    margin-top: 0;
+}
+
+#yazi
+{
+
+    position: absolute;
+}
+
+#home
+{
+    position: absolute;
+    top: 0px; /* üstten uzaklığı ayarla */
+    left: 500px; /* yatay konum */
+}
+
+#About
+{
+    position: absolute;
+    top: 40px; /* Home’un altına yerleştir */
+    left: 500px;
+}
+
+#Features
+{
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
+
+#Ultimate
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#burak {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("resimler/embappe.jpg");
+    background-size: cover;
+}
+
+#black {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+}

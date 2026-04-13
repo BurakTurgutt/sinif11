@@ -1,0 +1,19 @@
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 40%;
+}
+
+input {
+    width: 300px;
+}
+
+button {
+    width: 300px;
+    cursor: pointer;
+}
+
+p {
+    margin-left: 11%;
+}
