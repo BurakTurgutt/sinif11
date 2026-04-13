@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="girisDiv">
+        <div id="kapsa">
+            <a href="#corba"><button id="girisBtn">Çorba</button></a>
+            <a href="#anayemek"><button id="girisBtn">Anayemek</button></a>
+            <a href="#tatlilar"><button id="girisBtn">Tatlılar</button></a>
+        </div>
+    </div>
+
+    <section id="corba">
+        <div id="kartlar">
+            <div class="Kart">
+                <img class="resim" src="resimler/corba1.jpg" alt="">
+                <div id="aciklamaKapsa">
+                    <p class="aciklama">Mercimek Çorbası</p>
+                    <button><img class="aciklaResim" src="resimler/add.png" alt=""
+                            onclick="ekle('Mercimek Çorbası',110)"></button>
+                    <button><img class="aciklaResim" src="resimler/clear.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="kartlar">
+            <div class="Kart">
+                <img class="resim" src="resimler/corba2.jpg" alt="">
+                <div id="aciklamaKapsa">
+                    <p class="aciklama">Yayla Çorbası</p>
+                    <button><img class="aciklaResim" src="resimler/add.png" alt=""
+                            onclick="ekle('Yayla Çorbası',80)"></button>
+                    <button><img class="aciklaResim" src="resimler/clear.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="kartlar">
+            <div class="Kart">
+                <img class="resim" src="resimler/corba3.jpg" alt="">
+                <div id="aciklamaKapsa">
+                    <p class="aciklama">Domates Çorbası</p>
+                    <button><img class="aciklaResim" src="resimler/add.png" alt=""
+                            onclick="ekle('Domates Çorbası',120)"></button>
+                    <button><img class="aciklaResim" src="resimler/clear.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="anayemek">
+        <div id="kartlar">
+            <div class="Kart">
+                <img class="resim" src="resimler/kofte.jpg" alt="">
+                <div id="aciklamaKapsa">
+                    <p class="aciklama">Köfte Menü</p>
+                    <button><img class="aciklaResim" src="resimler/add.png" alt=""
+                            onclick="ekle('Köfte Menü',220)"></button>
+                    <button><img class="aciklaResim" src="resimler/clear.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="kartlar">
+            <div class="Kart">
+                <img class="resim" src="resimler/tandir.jpg" alt="">
+                <div id="aciklamaKapsa">
+                    <p class="aciklama">Tandır Tava</p>
+                    <button><img class="aciklaResim" src="resimler/add.png" alt=""
+                            onclick="ekle('Tandır Tava',150)"></button>
+                    <button><img class="aciklaResim" src="resimler/clear.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="kartlar">
+            <div class="Kart">
+                <img class="resim" src="resimler/makarna.jpg" alt="">
+                <div id="aciklamaKapsa">
+                    <p class="aciklama">Körili Tavuklu Makarna</p>
+                    <button><img class="aciklaResim" src="resimler/add.png" alt=""
+                            onclick="ekle('Körili Tavuklu Makarna',140)"></button>
+                    <button><img class="aciklaResim" src="resimler/clear.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="tatlilar">
+        <div id="kartlar">
+            <div class="Kart">
+                <img class="resim" src="resimler/kostebek.jpeg" alt="">
+                <div id="aciklamaKapsa">
+                    <p class="aciklama">Köstebek Pasta</p>
+                    <button><img class="aciklaResim" src="resimler/add.png" alt=""
+                            onclick="ekle('Köstebek Pasta',110)"></button>
+                    <button><img class="aciklaResim" src="resimler/clear.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="kartlar">
+            <div class="Kart">
+                <img class="resim" src="resimler/rulo.jpeg" alt="">
+                <div id="aciklamaKapsa">
+                    <p class="aciklama">Rulo Pasta</p>
+                    <button><img class="aciklaResim" src="resimler/add.png" alt=""
+                            onclick="ekle('Rulo Pasta',110)"></button>
+                    <button><img class="aciklaResim" src="resimler/clear.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="kartlar">
+            <div class="Kart">
+                <img class="resim" src="resimler/profiterol.jpg" alt="">
+                <div id="aciklamaKapsa">
+                    <p class="aciklama">Profiterol</p>
+                    <button><img class="aciklaResim" src="resimler/add.png" alt=""
+                            onclick="ekle('Profiterol',110)"></button>
+                    <button><img class="aciklaResim" src="resimler/clear.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="liste">
+        <h2 style="text-align: center; text-decoration: underline;">Liste</h2>
+
+        <div id="listKapsa" class="listKapsa">
+            <h2 style="visibility:hidden;" class="listYemek" id="listYemek"></h2>
+            <h2 class="listFiyat" id="listFiyat"></h2>
+        </div>
+
+        <div id="toplam" class="toplam"></div>
+    </div>
+        <script src="script.js"></script>
+
+</body>
+
+</html>

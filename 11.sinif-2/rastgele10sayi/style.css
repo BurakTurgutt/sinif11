@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.yazi {
+    font-size: 20px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-decoration: underline;
+}

@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    overflow: hidden;
+}
+
+#girisBtn {
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #BDE8F5;
+    color: #0F2854;
+    border: none;
+    cursor: pointer;
+}
+
+#girisDiv {
+    margin-top: 14%;
+    height: 100%;
+    width: 100%
+}
+
+#kapsa {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#corba {
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 70%;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#anayemek {
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 70%;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#tatlilar {
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 70%;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.resim {
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.aciklama {
+    margin-left: 2%;
+    margin-top: 2%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.resim:hover {
+    width: 330px;
+    height: 220px;
+    transition: 0.5s;
+}
+
+.aciklaResim {
+    width: 32px;
+    height: 32px;
+}
+
+#aciklamaKapsa {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+#liste {
+    position: fixed;
+    right: 0;
+    top: 10%;
+    width: 350px;
+    height: 700px;
+    background-color: #E3FDFD;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.listKapsa {
+    margin-top: 10%;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
